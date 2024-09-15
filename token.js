@@ -9,5 +9,4 @@ const token = jwt.sign({
 console.log(token)
 
 const tokenDecodificado = jwt.verify(token, chaveSecreta)
-
 console.log(tokenDecodificado)
